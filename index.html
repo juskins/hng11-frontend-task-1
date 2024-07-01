@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juskins Personal Website</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="flex">
+            <div class="profile">
+                <img  data-testid="slackProfilePicture" src="slack profile pic.jpg" alt="" width="50px" height="50px" style="object-fit: cover;">
+                <div class="title" data-testid="slackDisplayName">Juskins</div>
+            </div>
+            <div class="flex date">
+                <p data-testid="currentDay"></p>
+                <div data-testid="currentTimeUTC"></div>
+            </div>
+        </nav>
+        <main>
+            <header>
+                <div class="title">My Two-Year Goal</div>
+            </header>
+            <div class="flex">
+                <section>
+                    <p>In the next two years, I aim to achieve two significant milestones 
+                        that will shape my career and personal growth. Firstly, I aspire to 
+                        secure a position as a software developer at a reputable tech company. Working for a leading 
+                        organization will provide me with the opportunity to engage in cutting-edge 
+                        projects, collaborate with top-tier professionals, and contribute to innovative solutions that 
+                        impact a broad audience. This experience will be invaluable in honing my technical skills, 
+                        understanding industry standards, and building a solid professional network.
+                    </p><br/>
+                    <p>
+                        Second, I plan to pursue a master's degree abroad. Studying in an international environment 
+                        will expose me to diverse perspectives and advanced knowledge in my field. It will also offer me 
+                        the chance to immerse myself in a different culture, enhancing my adaptability and global outlook. 
+                        The combination of advanced education and practical experience in a reputable tech company will equip me with a robust 
+                        foundation to excel in my career and make meaningful contributions to the tech industry. 
+                    </p><br>
+                    <div class="link">
+                        <h4>Wanna dive into tech?</h4>
+                        <p>Visit <a data-testid="hngLink" href="www.hng.tech/learn" target="_blank">HNG website</a> for more info</p>
+                    </div>
+                </section>
+                <aside>
+                    This dual focus on professional experience and higher education will not only broaden my expertise
+                     but also open doors to new opportunities and challenges, 
+                    ultimately preparing me for a successful and fulfilling career in technology.
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <p data-testid="slackEmail">My email address: omojuwababatunde1@gmail.com</p>
+            <div class="flex links">
+                <p>Other Links</p>
+                <p><a data-testid="keywordLink" href="keyword.org" target="_blank">keyword.dog</a></p>
+                <p><a data-testid="scrapeanywebLink" href="scrapeanyweb.site" target="_blank">scrapeanyweb.site</a></p>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
